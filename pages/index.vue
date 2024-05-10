@@ -20,7 +20,7 @@
         :key="currency.id">
         <td>{{ currency.name }}</td>
         <td>{{ currency.symbol }}</td>
-        <td>{{ currency.price }}</td>
+        <td>{{ currency.price_usd }}</td>
         <td>
           <NuxtLink :to="`/currency/${currency.id}`">{{ currency.id }}</NuxtLink>
         </td>
